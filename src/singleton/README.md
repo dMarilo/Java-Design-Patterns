@@ -8,7 +8,7 @@ The **Singleton** pattern guarantees that.
 
 ---
 
-
+<img width="308" height="150" alt="Screenshot 2025-09-15 152943" src="https://github.com/user-attachments/assets/621678ff-e4d2-4613-8b1f-06d46a72c33f" />
 
 ---
 
