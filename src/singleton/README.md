@@ -8,6 +8,10 @@ The **Singleton** pattern guarantees that.
 
 ---
 
+
+
+---
+
 ## ✅ Applicability
 Use the Singleton pattern when:
 - There must be exactly **one instance** of a class, and it must be accessible from a well-known access point.
@@ -50,23 +54,4 @@ The Singleton pattern has several benefits:
 - **Prototype**
 
 These patterns often rely on Singleton to ensure a single shared instance is provided.
-
----
-
-## 📝 Example (in Python)
-
-```python
-class Singleton:
-    _instance = None
-
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(Singleton, cls).__new__(cls)
-        return cls._instance
-
-# Usage
-s1 = Singleton()
-s2 = Singleton()
-
-print(s1 is s2)  # True
 
